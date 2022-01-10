@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Ole&family=Press+Start+2P&family=Roboto:wght@300;500&family=Shizuru&display=swap');
+
+.navbar{
+  padding-bottom:0;
+  position: sticky;
+  top:0px;
+  background-color: #001529;
+  z-index: 1;
+  transition-timing-function: ease-in-out;
+  transition: 0.7s;
+}
+
+.navinvis{
+top: -100px;
+}
+
+.dis-none{
+display: none;
+}
+
+.transy{
+background-color: transparent;
+}
+
+.nav-item {
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  font-size: 19px;
+  padding-left: 4px ;
+}
+.nav-item:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: rgb(206, 57, 57);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.nav-item:hover:after {
+  width: 98%;
+  left: 0;
+}
+@media screen and (max-height: 300px) {
+  ul {
+    margin-top: 40px;
+  }
+}
+
+.navbar-brand{
+  font-size: 30px;
+  color: #fff;
+  color: #fff;
+  text-align: center;
+  text-shadow: 
+  0 0 5px #fff, 
+  0 0 10px #fff, 
+  0 0 15px #d64d60, 
+  0 0 20px #d64d60,
+  0 0 25px #d64d60, 
+  0 0 30px #d64d60, 
+  0 0 35px #d64d60;
+}
+
+.navbar-brand{
+  font-size: 33px;
+  font-family: 'Rampart One', cursive;
+  font-weight: 600;
+  animation: flicker 1.5s infinite alternate;
+  color: rgb(204, 46, 46);
+}
+
+@keyframes flicker {
+    
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #d64d60,
+      0 0 80px #d64d60,
+      0 0 90px #d64d60,
+      0 0 100px #d64d60,
+      0 0 150px #d64d60;
+  
+  }
+  
+  20%, 24%, 55% {        
+      text-shadow: none;
+  }    
+}
+
+.call{
+  border: 1px solid #c90c3b;
+  box-shadow: 0 0 2px 2px #79033e, inset 0 0 2px 2px #da1949;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.call:hover{
+  box-shadow: 0 0 8px 8px #79033e, inset 0 0 8px #da1949;
+}
+
+.fit{
+  font-weight: 100;
+}
+
+.nav-item-ex{
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  font-size: 18px;
+  padding-left: 1px;
+}

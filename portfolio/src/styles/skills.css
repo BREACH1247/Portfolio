@@ -1,0 +1,48 @@
+i{
+    padding-bottom: 30px;
+}
+
+.skill-title{
+    text-align: center;
+}
+
+.skillcard *{
+    text-align: center;
+}
+
+.skillcard i {
+    font-size: 4rem;
+    color: #db4a5a;
+}
+
+.skillcard{
+    padding: 4rem;
+    border: 2px solid beige;
+    border-radius: 10%;
+    margin: 1rem;
+    height: 50vh;
+    box-shadow: 0px 0px 7px 3px rgb(9, 13, 226),
+    0px 0px 10px 4px rgb(228, 5, 79);
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+.skillcard:hover{
+    box-shadow: 0px 0px 10px 5px var(--lightblue),
+    0px 0px 13px 7px rgb(231, 19, 100);
+    transform: scale(0.97);
+    transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#skills{
+    margin-bottom: 3rem;
+    margin-top:1rem;
+}
+
+.skillka-title{
+    margin-bottom:2rem;
+}
+
+.row{
+    margin-top:15vh;
+    margin-bottom: 15vh;
+}

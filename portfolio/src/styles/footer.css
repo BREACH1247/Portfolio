@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Roboto+Slab:wght@700&display=swap');
+
+.footer{
+    text-align: center;
+    padding-bottom: 1rem;
+    background-color: #001529;
+    padding-top: 1rem;
+    border-top: 1px solid #31217c;
+    
+}
+
+.footer i{
+    margin: 1rem 1rem 2rem 1rem;
+    color: rgb(189, 189, 189);
+}
+
+.footer-title{
+    font-family: 'Rampart One', cursive;
+    color: #eb1a47;
+    font-weight: 600;
+    font-size: 3rem;
+}
+

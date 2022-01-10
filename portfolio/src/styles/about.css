@@ -1,0 +1,135 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+#about {
+    padding-top: 3rem;
+  }
+  
+  .image {
+    border-radius: 50%;
+    padding: 3rem;
+  }
+  
+  .summary {
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+  
+  .button-link {
+    text-align: center;
+    margin: 2rem auto;
+    width: fit-content;
+  }
+  
+  .contact-button {
+    text-align: center;
+    width: fit-content;
+  }
+  .contact-button {
+      position: relative;
+      display: inline-block;
+      padding: 15px 30px;
+      color: #76ff69;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      text-decoration: none;
+      font-size: 24px;
+      overflow: hidden;
+      transition: 0.2s;
+  }
+  
+  
+  
+  .contact-button:hover {
+      color: #0b54db;
+      background: #a0ff69;
+      box-shadow: 0 0 10px #23db0b, 0 0 40px #23db0b, 0 0 80px #23db0b;
+      transition-delay: 0.5s;
+  }
+  
+  
+  .contact-button span {
+      position: absolute;
+      display: block;
+  }
+  
+  
+  
+  
+  .contact-button span:nth-child(1) {
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, #ff6976);
+  }
+  
+  
+  
+  .contact-button:hover span:nth-child(1) {
+      left: 100%;
+      transition: 0.5s;
+  }
+  
+  
+  .contact-button span:nth-child(3) {
+      bottom: 0;
+      right: -100%;
+      width: 100%;
+      height: 2px;
+      background: linear-gradient(270deg, transparent, #ff6976);
+  }
+  
+  .contact-button:hover span:nth-child(3) {
+      right: 100%;
+      transition: 0.5s;
+      transition-delay: 0.5s;
+  }
+  
+  
+  
+  .contact-button span:nth-child(2) {
+      top: -100%;
+      right: 0;
+      width: 2px;
+      height: 100%;
+      background: linear-gradient(180deg, transparent, #ff6976);
+  }
+  
+  .contact-button:hover span:nth-child(2) {
+      top: 100%;
+      transition: 0.5s;
+      transition-delay: 0.25s;
+  }
+  
+  
+  
+  .contact-button span:nth-child(4) {
+      bottom: -100%;
+      left: 0;
+      width: 2px;
+      height: 100%;
+      background: linear-gradient(360deg, transparent, #ff6976);
+  }
+  
+  .contact-button:hover span:nth-child(4) {
+      bottom: 100%;
+      transition: 0.5s;
+      transition-delay: 0.25s;
+  }
+
+.topic-head{
+    text-align: center;
+  }
+
+
+.embolden{
+    font-weight: 600;
+    color: #ff6976;
+  }
+
+
+.mb-2{
+    font-size: 18px;
+}

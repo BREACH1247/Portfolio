@@ -29,9 +29,9 @@ function Landing() {
                     <Typist.Backspace count={20} delay={800} />
                     <span className="dynamic">Web Developer</span>
                     <Typist.Backspace count={15} delay={800} />
-                    <span className="dynamic">Ml Enthusiast</span>
+                    <span className="dynamic">ML Enthusiast</span>
                     <Typist.Backspace count={15} delay={800} />
-                    <span className="dynamic">Crypto fanatic</span>
+                    <span className="dynamic">Crypto Fanatic</span>
                     <Typist.Backspace count={15} delay={800} />
                   </Typist>
                 ) : (
